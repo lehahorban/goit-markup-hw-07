@@ -1,0 +1,37 @@
+.title {
+  background-color: var(--background-item-color);
+  padding-bottom: 0px;
+}
+.about-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  text-transform: uppercase;
+  width: 270px;
+}
+.title-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  width: 270px;
+  margin-top: 10px;
+}
+
+.title-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}

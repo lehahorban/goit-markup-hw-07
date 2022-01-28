@@ -1,0 +1,21 @@
+.team {
+  background-color: var(--background-items-color);
+}
+.list-items {
+  display: flex;
+}
+.list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  margin-bottom: 50px;
+}
+.team {
+  background-color: #f5f4fa;
+}
