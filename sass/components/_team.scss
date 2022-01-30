@@ -1,12 +1,7 @@
 .team {
   background-color: var(--background-items-color);
 }
-.list-items {
-  display: flex;
-}
-.list-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .team-title {
   font-weight: bold;
   font-size: 36px;

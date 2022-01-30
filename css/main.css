@@ -274,11 +274,11 @@ body {
   display: flex;
 }
 
-.box-item:not(:first-child) {
+.features__box:not(:first-child) {
   margin-left: 30px;
 }
 
-.list-border {
+.features__box-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,12 +289,20 @@ body {
   margin-bottom: 30px;
 }
 
-.title {
+.features {
   background-color: var(--background-item-color);
   padding-bottom: 0px;
 }
 
-.about-title {
+.features__list {
+  display: flex;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -304,7 +312,7 @@ body {
   width: 270px;
 }
 
-.title-text {
+.features-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -372,14 +380,6 @@ body {
 
 .team {
   background-color: var(--background-items-color);
-}
-
-.list-items {
-  display: flex;
-}
-
-.list-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .team-title {
@@ -776,7 +776,7 @@ body {
   display: flex;
 }
 
-.footer-form-mail {
+.footer-form__mail {
   padding: 12px 16px;
   margin-top: 20px;
   width: 358px;
@@ -794,7 +794,7 @@ body {
   outline: none;
 }
 
-.footer-form-btn {
+.footer-form__btn {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -814,7 +814,7 @@ body {
   color: #ffffff;
 }
 
-.form-btn-icon {
+.footer-form__icon {
   margin-left: 10px;
 }
 

@@ -1,8 +1,14 @@
-.title {
+.features {
   background-color: var(--background-item-color);
   padding-bottom: 0px;
 }
-.about-title {
+.features__list {
+  display: flex;
+}
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+.features-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -11,7 +17,7 @@
   text-transform: uppercase;
   width: 270px;
 }
-.title-text {
+.features-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;

@@ -2,11 +2,11 @@
   display: flex;
 }
 
-.box-item:not(:first-child) {
+.features__box:not(:first-child) {
   margin-left: 30px;
 }
 
-.list-border {
+.features__box-item {
   display: flex;
   justify-content: center;
   align-items: center;
