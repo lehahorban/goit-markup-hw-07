@@ -4,13 +4,13 @@
 .work-list {
   display: flex;
 }
-.work-list-item:not(:last-child) {
+.work-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.work-list-item {
+.work-list__item {
   position: relative;
 }
-.work-list-box {
+.work-box {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -21,22 +21,13 @@
   left: 0;
   bottom: 0;
 }
-.work-box-title {
+.work-box__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-.work-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--first-text-color);
-  margin-bottom: 50px;
 }
 .work-title {
   font-weight: bold;

@@ -1,7 +1,7 @@
 .header {
   color: var(--background-origin);
 }
-.header-links {
+.site-list__links {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -12,7 +12,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header-links::after {
+.site-list__links::after {
   content: '';
   position: absolute;
   display: flex;
@@ -25,25 +25,35 @@
   opacity: 1;
 }
 
-.header-container {
+.header__container {
   display: flex;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+.site-list__item:not(:last-child) {
+  margin-right: 50px;
 }
 .header-border {
   border-bottom: 1px solid #ececec;
 }
-.header-nav {
+.site-list {
   display: block;
   display: flex;
   align-items: center;
 }
 
-.list-header-mail {
+.connect__mail {
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.list-header-tel {
+.connect__tel {
   padding-top: 32px;
   padding-bottom: 32px;
 }

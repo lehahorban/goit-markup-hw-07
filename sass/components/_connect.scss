@@ -1,50 +1,26 @@
-.mail-svg {
-  margin-right: 10px;
-}
-.tel-svg {
-  margin-right: 10px;
-}
-.header-tel {
+.connect {
   display: block;
   display: flex;
   margin-left: auto;
   align-items: center;
 }
-.link-connection {
+.connect__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.mail-svg {
+.connect__ikon {
+  margin-right: 10px;
   fill: currentColor;
 }
-.tel-svg {
-  fill: currentColor;
-}
-.link-connection:hover,
-.link-connection:focus {
-  color: var(--accent-color);
-}
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
-}
 
-.header-links:hover,
-.header-links:focus {
-  color: var(--accent-color);
-}
-
-.header-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--first-text-color);
-}
-.header-link {
+.site-list__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,8 +30,9 @@
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-}
 
-.list-header:not(:last-child) {
-  margin-right: 50px;
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
 }

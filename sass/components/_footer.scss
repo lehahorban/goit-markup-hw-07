@@ -4,7 +4,12 @@
   padding-bottom: 60px;
   display: flex;
 }
-
+.address {
+  margin-top: 20px;
+}
+.address__item {
+  margin-top: 9px;
+}
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
@@ -15,47 +20,33 @@
   color: var(--accent-color);
 }
 
-.footer-address {
+.address__link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
-  margin-top: 20px;
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    color: var(--first-title-color);
+  }
 }
-.footer-address:hover,
-.footer-address:focus {
-  color: var(--first-title-color);
-}
-.footer-mail {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--footer-text-color);
-  margin-top: 9px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--first-title-color);
-}
-.footer-tel {
+
+.address__contact {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-  margin-top: 9px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-tel:hover,
-.footer-tel:focus {
-  color: var(--first-title-color);
+  &:focus,
+  &:hover {
+    color: var(--first-title-color);
+  }
 }
 
 .footer-link {
@@ -75,15 +66,15 @@
   margin-left: 70px;
 }
 
-.footer-list {
+.social-network {
   display: flex;
   margin-top: 20px;
 }
-.footer-list :not(:first-child) {
+.social-network :not(:first-child) {
   margin-left: 10px;
 }
 
-.footer-social-link {
+.social-network__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -92,13 +83,13 @@
   align-items: center;
   border-radius: 50%;
   color: #ffffff;
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
 }
-.footer-ikon {
+.social-network__ikon {
   fill: currentColor;
-}
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-color);
 }
 
 .footer-title {

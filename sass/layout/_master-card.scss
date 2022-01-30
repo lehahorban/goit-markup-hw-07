@@ -15,15 +15,15 @@
   padding-left: 24px;
 }
 
-.masters-social-list {
+.masters-list__social-list {
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
-.masters-social-item:not(:first-child) {
+.social__item:not(:first-child) {
   margin-left: 10px;
 }
-.masters-social-link {
+.social__link {
   width: 44px;
   height: 44px;
   background: #ffffff;
@@ -33,12 +33,12 @@
   border-radius: 50%;
   color: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+  }
 }
-.svg-link {
+.social__icon {
   fill: currentColor;
-}
-.masters-social-link:hover,
-.masters-social-link:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
 }
